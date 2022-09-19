@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> Home page </title>
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+
+<section id="home">
+            <div class="header">
+                <h1 class="head">Department Of Computer Science</h1>
+                
+            </div>
+            <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#course">Courses</a>
+					<a href="#course">Teachers</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+					    <script>
+                function navFunction() {
+                    var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } 
+                        else {
+                            x.className = "topnav";
+                        }
+                }
+                
+            </script>
+        
+            </div>
+			</body>
+			</html>
+
